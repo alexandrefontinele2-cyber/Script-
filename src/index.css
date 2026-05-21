@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Fontenelle Academy Premium Brand Colors */
+  --color-academy-blue: #0f1c30;       /* Azul acinzentado escuro editorial */
+  --color-academy-blue-light: #1e2d42; /* Azul acinzentado médio elegante */
+  --color-academy-blue-dark: #080f1a;  /* Azul escuro da realeza */
+  --color-academy-gold: #c5a870;       /* Dourado champagne sofisticado */
+  --color-academy-gold-light: #dfc89a; /* Dourado champagne suave */
+  --color-academy-gold-dark: #a0844e;  /* Dourado champagne profundo */
+  --color-academy-cream: #fbf9f6;      /* Creme suave (off-white) */
+  --color-academy-gray: #1f2937;
+}
+
+/* Base style resets and beautiful editorial selections */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-academy-cream);
+  color: #1a2536;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Beautiful custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-academy-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-academy-blue-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-academy-gold);
+}
+

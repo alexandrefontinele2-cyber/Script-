@@ -1,0 +1,6 @@
+{
+  "name": "Script Comercial Avançado",
+  "description": "Landing page de alta conversão para o Script Comercial Avançado para Clínicas de Estética da Fontenelle Academy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
